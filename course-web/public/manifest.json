@@ -1,0 +1,8 @@
+{
+  "short_name": "CMSC839E",
+  "name": "CMSC839E: Advanced Topics in HCI",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
