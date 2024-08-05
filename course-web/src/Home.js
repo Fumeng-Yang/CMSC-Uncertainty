@@ -5,7 +5,8 @@ import { withRouter } from './withRouter.js';
 import Syllabus from './Syllabus.js';
 import People from './People.js';
 import Policies from './Policies.js';
-import { course_full_name, course_location, course_number, course_objective, course_objective_long, course_short_name, course_sub_name, course_time } from './config.js';
+
+import { acknowledgement, course_full_name, course_location, course_number, course_objective, course_objective_long, course_short_name, course_sub_name, course_time } from './config.js';
 import Howitworks from './Howitwork.js';
 
 
@@ -31,15 +32,18 @@ class Home extends Component {
                 </Navbar>
 
                 <Container className="mt-5">
+                    <h4 className='red'>[This website has not been finalized yet.]</h4>
                     <div className="text-left">
                         <h1 className="display-4">{course_full_name}</h1>
                         <p className="lead">{course_sub_name}</p>
-                        <p >Time: {course_time}, Location: {course_location}</p>
+           
+                        Time: {course_time}, Location: {course_location}
 
 
                         <hr className="my-4" />
-                        <p>{course_objective_long}</p>
-                        <p>{course_objective}</p>
+                        <p dangerouslySetInnerHTML={{__html:course_objective_long}}></p>
+                        {/* <p dangerouslySetInnerHTML={{__html:course_objective}}></p> */}
+                
 
                         <hr className="my-4" />
                         <Howitworks/>
@@ -49,6 +53,11 @@ class Home extends Component {
                         <People />
 
                         <Policies/>
+
+                        <>
+                        <h2  id='policies'>Acknowledgements</h2>
+                        <p dangerouslySetInnerHTML={{__html: acknowledgement}}></p>
+                        </>
 
                     </div>
 
