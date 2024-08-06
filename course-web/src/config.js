@@ -12,7 +12,7 @@ export const course_objective_long = `
 <font class='topic'>explanability</font>, 
 <font class='topic'>decision-making</font>, 
 <font class='topic'>uncertainty visualization</font>, and 
-<font class='topic'>LLM/LMM uncertainty</font>.
+<font class='topic'>LLM uncertainty</font>.
 
 The course format includes a combination of presentations, discussions, and lectures. 
  
@@ -138,41 +138,44 @@ export const syllabus = `|&#128034;&#128007;| Week | Date | Topic | Reading list
 [P#X] 
 [P#X]  
 [P#X]
-  |   |
+|   A3 abstract due|
 
 | | | 10/30/24 | (continued)  <br/>  Lecture: write a review (~30m) | 
 [P#X]
 [P#X]  
-|A3 abstract due |
-
-| | 9 | 11/04/24 | LM I - LLM uncertainty | 
-[P#X] Look before You leap: An exploratory study of uncertainty measurement for large language models [[link]](https://arxiv.org/pdf/2307.10236)
-[P#X] Introduction to uncertainty in deep learning [[link]](https://www.gatsby.ucl.ac.uk/~balaji/balaji-uncertainty-talk-cifar-dlrl.pdf) <font class='paper-index-title'> (until ~p45) </font> 
-[P#X] "I'm not sure, but...": Examining the impact of large language models' uncertainty expression on user reliance and trust [[link]](https://www.jennwv.com/papers/uncertaintyllms.pdf) 
-[P#X] 
-[P#X]  
 | A3 bidding out |
 
-| | | 11/06/24 | (continued) | 
-[P#X] 
-[P#X]  | |
+| | 9 | 11/04/24 | LLM uncertainty I - Source| 
+<font class='paper-index-title'>The reading list beyond this point is highly uncertain :-) </font> 
+[P#X] Uncertainty in natural language generation: From theory to applications [[link]](https://arxiv.org/pdf/2307.15703)
+[P#X] Semantic uncertainty: Linguistic invariances for uncertainty estimation in natural language generation [[link]](https://arxiv.org/abs/2302.09664)
+<!-- Navigating the Grey Area: How Expressions of Uncertainty and Overconfidence Affect Language Models-->
+<font class='paper-index-title'>Optional: </font> 
+[P#X] Introduction to uncertainty in deep learning [[link]](https://www.gatsby.ucl.ac.uk/~balaji/balaji-uncertainty-talk-cifar-dlrl.pdf) <font class='paper-index-title'> (until ~p45) </font> 
+|  |
 
-| | 10 | 11/11/24 | LM II - LMM uncertainty |  
-[P#X] 
-[P#X]  
-[P#X]| A3 bidding due |
+| | | 11/06/24 | LLM uncertainty II - Quantification | 
+[P#X] Generating with confidence: Uncertainty quantification for black-box large language lodels [[link]](https://arxiv.org/pdf/2305.19187)
+[P#X] Shifting attention to relevance: Towards the predictive uncertainty quantification of free-form large language models [[link]](https://arxiv.org/pdf/2307.01379)
+[P#X] Look before you leap: An exploratory study of uncertainty measurement for large language models [[link]](https://arxiv.org/pdf/2307.10236)
+| A3 bidding due |
 
-| | | 11/13/24 |  (continued) <br/> Lecture: respond to reviews (~30m) | 
-[P#X] 
-[P#X]  
-[P#X] | |
+| | 10 | 11/11/24 | LLM uncertainty III - User perspective|  
+[P#X] "I'm not sure, but...": Examining the impact of large language models' uncertainty expression on user reliance and trust [[link]](https://www.jennwv.com/papers/uncertaintyllms.pdf)  
+[P#X] Teaching models to express their uncertainty in words [[link]](https://arxiv.org/pdf/2205.14334)
+| |
 
-| | 11 | 11/18/24 | AI literacy   | 
+| | | 11/13/24 |   AI literacy I <br/> Lecture: respond to reviews (~30m) | 
+[P#X] Adults' statistical literacy: Meanings, components, responsibilities [[link]](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=f490d421fc7b8af7eba4c3ca997a8388547c55d6)
+ | |
+
+| | 11 | 11/18/24 | AI literacy  II | 
 [P#X] What is AI literacy? Competencies and design considerations [[link]](https://aiunplugged.lmc.gatech.edu/wp-content/uploads/sites/36/2020/08/CHI-2020-AI-Literacy-Paper-Camera-Ready.pdf) 
-[P#X]  
-[P#X] |   |
+[P#X] The effects of perceived AI use on content perceptions [[link]](https://dl.acm.org/doi/pdf/10.1145/3613904.3642076) | 
+A3 paper due  |
 
-| | | 11/20/24 | Slots for project presentations | |  A3 paper due; A4 out on Fri  |
+| | | 11/20/24 | Slots for project presentations | 
+| A4 out  |
 
 | | 12 | 11/25/24 | Thanksgiving (no class)  | | |
 
