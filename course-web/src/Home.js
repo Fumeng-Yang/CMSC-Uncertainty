@@ -24,7 +24,7 @@ class Home extends Component {
                                 <Nav.Link href="#">Home</Nav.Link>
                                 <Nav.Link href="#howitworks">HTW</Nav.Link>
                                 <Nav.Link href="#syllabus">Syllabus</Nav.Link>
-                                <Nav.Link href="#staff">Staff</Nav.Link>
+                                <Nav.Link href="#crew">Crew</Nav.Link>
                                 <Nav.Link href="#policies">Policies</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
@@ -32,7 +32,6 @@ class Home extends Component {
                 </Navbar>
 
                 <Container className="mt-5">
-                    <h4 className='red'>[This website has not been finalized yet.]</h4>
                     <div className="text-left">
                         <h1 className="display-4">{course_full_name}</h1>
                         <p className="lead">{course_sub_name}</p>
@@ -66,7 +65,7 @@ class Home extends Component {
 
                 <footer className="footer mt-auto py-3 bg-light">
                     <Container className="text-center">
-                        <span className="text-muted">© 2024 University of Maryland, College Park. </span>
+                        <span className="text-muted">© 2024 University of Maryland, College Park.</span>
                     </Container>
                 </footer>
             </>

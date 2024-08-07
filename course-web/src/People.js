@@ -10,7 +10,7 @@ class People extends Component {
     render(){
         return(
             <>
-            <h2  id='staff'> Teaching staff</h2>
+            <h2  id='crew'> Teaching crew</h2>
             <Row>
                 <Card className='people-card'>
                <Card.Img variant="top" src="https://www.fmyang.com/img/FumengYang-2024-2-lg.jpg" />

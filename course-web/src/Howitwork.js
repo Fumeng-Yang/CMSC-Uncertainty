@@ -49,7 +49,7 @@ class Howitworks extends Component {
 
                 {assignments.map(a => {
                     return (<div className='div-howitworks'>
-                        <b>{a.name}</b> <>{a.summary}</>
+                        <h6>{a.name} {a.summary}</h6> 
                         {a.divs.map(c => {
                             return (
                                 <Container>
