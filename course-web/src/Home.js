@@ -9,7 +9,10 @@ import Policies from './Policies.js';
 import { acknowledgement, course_full_name, course_location, course_number, course_objective, course_objective_long, course_short_name, course_sub_name, course_time } from './config.js';
 import Howitworks from './Howitwork.js';
 
-
+import ggdist from './img/ggdist.png'
+import llm from './img/llm-papers.png'
+import forecasts2020 from './img/forecasts2020.png'
+import { format } from 'date-fns';
 class Home extends Component {
 
     render() {
@@ -35,27 +38,34 @@ class Home extends Component {
                     <div className="text-left">
                         <h1 className="display-4">{course_full_name}</h1>
                         <p className="lead">{course_sub_name}</p>
-           
-                        Time: {course_time}, Location: {course_location}
 
+                        <p> Time: {course_time}, Location: {course_location} <br/>
+                         Last update: {format(new Date(document.lastModified), 'MM/dd/yyyy kk:mm')} 
+                         </p>
+                        <Row className='desktop-only' >
+                            <Col lg={4}><img src={forecasts2020} className='headimage'></img> <figcaption>https://projects.fivethirtyeight.com/2020-election-forecast/</figcaption> </Col>
+                            <Col lg={4}><img src={ggdist} className='headimage'></img> <figcaption>https://mjskay.github.io/ggdist/</figcaption> </Col>
+                            <Col lg={4}><img src={llm} className='headimage'></img><figcaption>https://analyticsindiamag.com/ai-origins-evolution/the-rise-of-lame-llm-papers/</figcaption> </Col>
 
-                        <hr className="my-4" />
-                        <p dangerouslySetInnerHTML={{__html:course_objective_long}}></p>
+                        </Row>
+
+                        <br />
+                        <p dangerouslySetInnerHTML={{ __html: course_objective_long }}></p>
                         {/* <p dangerouslySetInnerHTML={{__html:course_objective}}></p> */}
-                
+
 
                         <hr className="my-4" />
-                        <Howitworks/>
+                        <Howitworks />
 
-                        <Syllabus/>
-                  
+                        <Syllabus />
+
                         <People />
 
-                        <Policies/>
+                        <Policies />
 
                         <>
-                        <h2  id='policies'>Acknowledgements</h2>
-                        <p dangerouslySetInnerHTML={{__html: acknowledgement}}></p>
+                            <h2 id='policies'>Acknowledgements</h2>
+                            <p dangerouslySetInnerHTML={{ __html: acknowledgement }}></p>
                         </>
 
                     </div>

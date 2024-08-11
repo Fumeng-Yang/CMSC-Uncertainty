@@ -19,7 +19,7 @@ class People extends Component {
                  <Card.Text>
                  Instructor<br/>
                  Pronouns: she/her <br/>
-                 Hours: MW 1-2 ET <br/>
+                 Hours: W after class to ~4:30 or by appointment <br/>
                  Office: IRB 2216 (for now)
                  </Card.Text>
                </Card.Body>
