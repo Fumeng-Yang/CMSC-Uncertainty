@@ -93,7 +93,7 @@ export const assignments = [
     },
 
     {
-        'name': 'Assignments 1:',
+        'name': 'Assignment 1:',
         'summary': 'quantitative analysis [Q]',
         'divs': [
             {
@@ -210,23 +210,26 @@ export const syllabus = `| Week <br/>&#128034;&#128007; | Date | Topics | Readin
 
 |--|---|-----------|-------------------------|--------------|
 
-| 0 | 08/26/24 | Logistics (~35m) <br/>  Warm-up exercise (~35m) |  <font class='paper-index-title'>A reminder: start reading the papers </font>   | QPR out |
+| 0 | 08/26/24 | Logistics +  Warm-up exercise |  <font class='paper-index-title'>A reminder: start reading the papers </font>   | QPR out |
 
-| | 08/28/24 | Lecture: Background knowledge on statistics, uncertainty, and visualization | 
+| | 08/28/24 | Lecture: Background knowledge on statistics, uncertainty, and visualization <a href='/code/stats_uncertainty.html' target='_blank'>code</a> | 
 <font class='paper-index-title'>Presentations start next week, but make sure to read this week's papers and submit your questions! </font>  
 [##X] Statistical rethinking (Chapter 1 The golem of prague) [[link]](https://xcelab.net/rmpubs/sr2/statisticalrethinking2_chapters1and2.pdf)  
 <font class='paper-index-title'> Only if you haven't taken a vis course before: </font> 
 [##X] Visualization analysis & design (Chapter 5 Marks and channels)  [[link]](https://paul.zhdk.ch/mod/resource/view.php?id=26808&lang=en) 
-<font class='paper-index-title'> Optional: </font> <br/>
+<font class='paper-index-title'> Optional: </font>
+[##X] Bad stats: Not what it seems [[link]](https://www.aviz.fr/badstats) 
+[##X] Fisher, Neyman-Pearson or NHST? A tutorial for teaching data testing  [[link]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4347431/)  
 [##X] Rethinking the ranks of visual channels  [[link]](https://arxiv.org/abs/2107.11367)  
-| |
+|
 
 | 1 | 09/02/24 | Labor day (no class) | | |
 
 | | 09/04/24 | Quantitative results I - Null Hypothesis Significance Testing (NHST) | 
 [##X] Rethinking statistical analysis methods for CHI  [[link]](https://judyrobertson.typepad.com/files/chi2012_submission_final.pdf)
-[##X] Confusion over measures of evidence (p's) versus errors (a's) in classical statistical testing [[link]](https://www.roma1.infn.it/~dagos/dott-prob_30/Hubbard-Bayarri-2003.pdf) 
 [##X] Statistical tests, p values, confidence intervals, and power: A guide to misinterpretations [[link]](https://link.springer.com/article/10.1007/s10654-016-0149-3) 
+<font class='paper-index-title'> Optional: </font> 
+[##X] Confusion over measures of evidence (p's) versus errors (a's) in classical statistical testing [[link]](https://www.roma1.infn.it/~dagos/dott-prob_30/Hubbard-Bayarri-2003.pdf) 
 | [Q.1](https://docs.google.com/document/d/1nKzrqqNwtefV-Y9UQkmlNbl8RWWM_zVtLdPjMCLuxC0/edit?usp=sharing) finalized  |
 
 | 2 | 09/09/24 |  Quantitative results II - Confidence intervals & Bayesian methods | 
@@ -239,7 +242,6 @@ export const syllabus = `| Week <br/>&#128034;&#128007; | Date | Topics | Readin
 [##X] Fundamentals of data visualization (Chapter 16 Visualizing uncertainty)  [[link]](https://clauswilke.com/dataviz/visualizing-uncertainty.html)
 [##X] Why authors don't visualize uncertainty [[link]](https://mucollective.github.io/assets/papers/2019-value-of-uncertainty-vis.pdf)
 <font class='paper-index-title'>Optional:</font> 
-[##X] ggdist: Visualizations of distributions and uncertainty in the grammar of graphic [[link]](https://mucollective.northwestern.edu/files/2023-ggdist.pdf)
 [##X] The UncertaintyVis browser [[link]](https://amitjenaiitbm.github.io/uncertaintyVizBrowser/)
 | |
 
@@ -266,7 +268,7 @@ XAI III: User trust |
 [##X] Introduction to uncertainty in deep learning [[link]](https://www.gatsby.ucl.ac.uk/~balaji/balaji-uncertainty-talk-cifar-dlrl.pdf) <font class='paper-index-title'> (until ~p45) </font> 
 | |
 
-| | 09/25/24 | XAI IV: Wrap-up  <br/> Projetc check-in (~25m)  |  
+| | 09/25/24 | XAI IV: Wrap-up  <br/> Project check-in (~25m)  |  
 [##X] Machine explanations and human understanding [[link]](https://arxiv.org/pdf/2202.04092)
 <font class='paper-index-title'>Priorizing leftover papers, if time, one of the 'fooling' papers:</font> 
 [##X] “How do I fool you?": Manipulating user trust via misleading black box explanation [[link]](https://trustml.github.io/docs/aies20.pdf) 
@@ -282,7 +284,10 @@ XAI III: User trust |
 
 | | 10/02/24 | 
 Reasoning about uncertainty II <br/>  Lecture: write a paper (~30m) |
-[##X] Prospect theory and political science [[link]](http://ndl.ethernet.edu.et/bitstream/123456789/25739/1/51.pdf.pdf)    <font class='paper-index-title'>(this is a long paper, so perhaps ~30m)</font> 
+[##X] Prospect theory and political science [[link]](http://ndl.ethernet.edu.et/bitstream/123456789/25739/1/51.pdf.pdf)  
+<font class='paper-index-title'>Required reading but no need to present: </font> 
+[##X] ggdist: Visualizations of distributions and uncertainty in the grammar of graphic [[link]](https://mucollective.northwestern.edu/files/2023-ggdist.pdf)
+[##X] The backstory to “Swaying the public”: A design chronicle of election forecast visualizations [[link]](https://osf.io/preprints/osf/927vy)  <font class='paper-index-title'>(could skip the results) </font> 
 |Q.2 due |
 
 | 6 | 10/07/24 | Probalistic forecasts I| 
@@ -293,8 +298,6 @@ Reasoning about uncertainty II <br/>  Lecture: write a paper (~30m) |
 [##X] Swaying the public? Impacts of election forecast visualizations on emotion, trust, and intention in the 2022 U.S. midterms  [[link]](https://osf.io/qpyna/) and [reviews](https://docs.google.com/document/d/11tRB6z3S9sXzY6tAjI1vNU1NAEy2K0mEnkcbj4ZEqCc/edit?usp=sharing)
 [##X] In dice we trust: Uncertainty displays for maintaining trust in election forecasts over time   [[link]](https://osf.io/9x4nr) and [reviews](https://docs.google.com/document/d/1O200vFb88UilGl5NgE9BWuZF25zO0Rz1Vcl3CUNiXcY/edit?usp=sharing)
 [##X] Watching the election sausage get made: How data journalists visualize the vote counting process in US elections [[link]](https://dl.acm.org/doi/10.1145/3613904.3642329)  
-<font class='paper-index-title'>Optional: </font> 
-[##X] The backstory to “Swaying the public”: A design chronicle of election forecast visualizations [[link]](https://osf.io/preprints/osf/927vy) 
 | P.1 proposal due  |
 
 | | 10/09/24 | Probalistic forecasts II | 
@@ -386,7 +389,7 @@ You have <b>4 slack days</b> to use for any assignments or responses that have a
 </p>
 `
 
-export const ai_policy = ` <p>The scope of AI tools includes, but is not limited to, GPT, Claude, Gemini, DALL-E, and Midjourney. In line with the spirit of this course
+export const ai_policy = ` <p>The scope of AI tools includes, but is not limited to, GPT, Claude, Gemini, DALL-E, Midjourney, and Hugging Face. In line with the spirit of this course
 
                     <ul>
                         <li>AI should <b>not</b> be used to <b>directly</b>  complete coursework. This includes, but is not limited to, summarizing papers without reading the original manuscripts or generating substantial portions of your assignments.</li>
@@ -408,12 +411,12 @@ If you have a disability or condition that requires accommodations, please notif
 
 
 export const acknowledgement = `
-<p>The content of this class has been inspired by the classes taught by 
+<p>The content of this class has been inspired by the classes and talks given by 
 Jessica Hullman (<a href='https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/497-11.html'>COMP_SCI 497</a>) at Northwestern University, Matthew Kay (<a href='https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/496-24.html'>COMP_SCI 496</a>) at Northwestern University, 
 David H. Laidlaw (<a href='https://cs.brown.edu/courses/csci2370/2022/'>CSCI2370</a>) at Brown University,
 Jeff Huang (<a href='https://cs.brown.edu/courses/csci2300/'>CSCI2300</a>) at Brown University,
 Yizheng Chen (<a href='https://surrealyz.github.io/classes/llmsec/llmsec.html'>CMSC818I</a>) at the University of Maryland, College Park, 
-Arvind Satyanarayan (<a href='https://vis.csail.mit.edu/classes/6.859/'>6.859</a>) at MIT, and 
- Chat Wacharamanotham at the University of Zurich.
+Arvind Satyanarayan (<a href='https://vis.csail.mit.edu/classes/6.859/'>6.859</a>) at MIT, Abhraneel Sarma and Maryam Hedayati (<a href='https://fumeng-yang.github.io/VIS23-Transparent-Research/'>Transparent Practices</a>) at Northwestern University, 
+ Chat Wacharamanotham at the University of Zurich, and Pierre Dragicevic (<a href='https://www.aviz.fr/badstats'>Bad Stats</a>) at Inria, France.
 
 `
