@@ -212,7 +212,7 @@ export const syllabus = `| Week <br/>&#128034;&#128007; | Date | Topics | Readin
 
 | 0 | 08/26/24 | Logistics +  Warm-up exercise |  <font class='paper-index-title'>A reminder: start reading the papers </font>   | QPR out |
 
-| | 08/28/24 | Lecture: Background knowledge on statistics, uncertainty, and visualization <a href='/code/stats_uncertainty.html' target='_blank'>code</a> | 
+| | 08/28/24 | Lecture: Background knowledge on statistics, uncertainty, and visualization <a href='stats_uncertainty.html' target='_blank'>code</a> | 
 <font class='paper-index-title'>Presentations start next week, but make sure to read this week's papers and submit your questions! </font>  
 [##X] Statistical rethinking (Chapter 1 The golem of prague) [[link]](https://xcelab.net/rmpubs/sr2/statisticalrethinking2_chapters1and2.pdf)  
 <font class='paper-index-title'> Only if you haven't taken a vis course before: </font> 

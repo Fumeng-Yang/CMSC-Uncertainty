@@ -4,6 +4,8 @@ output:
   html_document: 
     toc: true
     df_print: kable
+  # md_document:
+  #  variant: markdown_github
 author: 'Fumeng Yang'
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 ---
