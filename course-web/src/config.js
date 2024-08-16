@@ -59,7 +59,7 @@ export const assignments = [
                                 <a href='https://docs.google.com/spreadsheets/d/18g1-GHFBAHwZIlZvIzBx7lznLUl45462Pa378EBw9fY/edit?usp=sharing'>Sign up here</a> (TBD). `,
                 'long_requirement': `
                 Each presentation (including the discussion) should last 20-30 minutes. <br/>
-                Please sign up for &#8805;1 paper over the course of the semester, and do so  &#8805;3 days before your scheduled presentation. <br/>
+                Please sign up for 2-3 papers over the course of the semester, and do so  &#8805;3 days before your scheduled presentation. <br/>
                 Presenters in the same class are encouraged to coordinate and decide how they would like to present and lead the discussion. <br/>
                You may reuse any online materials (e.g., slides, videos, demos) as long as you adhere to their licenses and describe the materials in your own words. <br/>
                 You may use any online resources as guidance, but make sure to at least introduce the problem, present some methods and results, and stimulate a discussion.  <br/>
@@ -147,14 +147,14 @@ export const assignments = [
                 'perc': .01,
                 'id': 'bidding',
                 'requirement': '<a href=\'https://docs.google.com/document/d/1MOivtgkwJyjpv1Z-ElEC1mC1jJKZO3AHngmAxk9ONL0/edit?usp=sharing\'>R.1</a> bidding & conflict (solo) ',
-                'long_requirement': `Indicate in a spreadsheet the papers you’d like to review and those you should not review due to conflicts of interest.  <br/>
+                'long_requirement': `Indicate in a spreadsheet the papers you'd like to review and those you should not review due to conflicts of interest.  <br/>
                 I may need to write some code to help with the review assignments...`
             },
             {
                 'perc': .1,
                 'id': 'peer-reviews',
                 'requirement': '<a href=\'https://docs.google.com/document/d/1MOivtgkwJyjpv1Z-ElEC1mC1jJKZO3AHngmAxk9ONL0/edit?usp=sharing\'>R.2</a>  write two peer reviews (group) ',
-                'long_requirement': `Students need to submit two peer reviews (submission method to be determined). <br/>
+                'long_requirement': `Students need to submit 1-2 peer reviews (submission method and numbers to be determined). <br/>
                 Fumeng will briefly review the submissions to ensure they are appropriate.
                 `
             }]
@@ -212,10 +212,10 @@ export const syllabus = `| Week <br/>&#128034;&#128007; | Date | Topics | Readin
 
 | 0 | 08/26/24 | Logistics +  Warm-up exercise |  <font class='paper-index-title'>A reminder: start reading the papers </font>   | QPR out |
 
-| | 08/28/24 | Lecture: Background knowledge on statistics, uncertainty, and visualization <a href='stats_uncertainty.html' target='_blank'>code</a> | 
+| | 08/28/24 | Lecture: Background knowledge on statistics, uncertainty, and visualization <a href='/CMSC839E/code/stats_uncertainty.html' target='_blank'>[code html]</a>, <a href='/CMSC839E/code/stats_uncertainty.Rmd' target='_blank'>[Rmd]</a> | 
 <font class='paper-index-title'>Presentations start next week, but make sure to read this week's papers and submit your questions! </font>  
 [##X] Statistical rethinking (Chapter 1 The golem of prague) [[link]](https://xcelab.net/rmpubs/sr2/statisticalrethinking2_chapters1and2.pdf)  
-<font class='paper-index-title'> Only if you haven't taken a vis course before: </font> 
+<font class='paper-index-title'> Only if you haven't taken a vis course: </font> 
 [##X] Visualization analysis & design (Chapter 5 Marks and channels)  [[link]](https://paul.zhdk.ch/mod/resource/view.php?id=26808&lang=en) 
 <font class='paper-index-title'> Optional: </font>
 [##X] Bad stats: Not what it seems [[link]](https://www.aviz.fr/badstats) 
@@ -235,7 +235,8 @@ export const syllabus = `| Week <br/>&#128034;&#128007; | Date | Topics | Readin
 | 2 | 09/09/24 |  Quantitative results II - Confidence intervals & Bayesian methods | 
 [##X] Fair statistical communication in HCI  [[link]](https://inria.hal.science/hal-01377894/file/fairstats-last.pdf) 
 [##X] Can visualization alleviate dichotomous thinking? Effects of visual representations on the cliff effect  [[link]](https://arxiv.org/pdf/2002.07671#:~:text=Our%20results%20suggest%20that%20adding,the%20CI%20with%20p%2Dvalues.) 
-[##X] Researcher-centered design of statistics: Why Bayesian statistics better fit the culture and incentives of HCI  [[link]](https://www.mjskay.com/papers/chi_2016_bayes.pdf) and [reviews]  
+<font class='paper-index-title'>Required reading but no need to present: </font> 
+[##X] Researcher-centered design of statistics: Why Bayesian statistics better fit the culture and incentives of HCI  [[link]](https://www.mjskay.com/papers/chi_2016_bayes.pdf)  
 | |
 
 | | 09/11/24 | Uncertainty visualization |
@@ -263,14 +264,14 @@ export const syllabus = `| Week <br/>&#128034;&#128007; | Date | Topics | Readin
 XAI III: User trust | 
 [##X] Effect of confidence and explanation on accuracy and trust calibration in AI-assisted decision making [[link]](https://arxiv.org/pdf/2001.02114)
 [##X] Are explanations helpful? A comparative study of the effects of explanations in AI-assisted decision-making [[link]](https://mingyin.org/paper/IUI-21/iui21.pdf)
-[##X] Uncertainty as a form of transparency: Measuring, communicating, and using uncertainty [[link]](https://arxiv.org/pdf/2011.07586)
 <font class='paper-index-title'> Optional: </font> <br/>
 [##X] Introduction to uncertainty in deep learning [[link]](https://www.gatsby.ucl.ac.uk/~balaji/balaji-uncertainty-talk-cifar-dlrl.pdf) <font class='paper-index-title'> (until ~p45) </font> 
 | |
 
 | | 09/25/24 | XAI IV: Wrap-up  <br/> Project check-in (~25m)  |  
+[##X] Uncertainty as a form of transparency: Measuring, communicating, and using uncertainty [[link]](https://arxiv.org/pdf/2011.07586)
+<font class='paper-index-title'>Optional:</font> 
 [##X] Machine explanations and human understanding [[link]](https://arxiv.org/pdf/2202.04092)
-<font class='paper-index-title'>Priorizing leftover papers, if time, one of the 'fooling' papers:</font> 
 [##X] “How do I fool you?": Manipulating user trust via misleading black box explanation [[link]](https://trustml.github.io/docs/aies20.pdf) 
 [##X] Fooling LIME and SHAP: adversarial attacks on post hoc explanation methods [[link]](https://dl.acm.org/doi/pdf/10.1145/3375627.3375830) 
 | [P.1](https://docs.google.com/document/d/1PX7GW2fauBQ1w-O4Ar6jTIRzgiRn2YK8tX73GRLGcoE/edit?usp=sharing) finalized | 
@@ -285,9 +286,9 @@ XAI III: User trust |
 | | 10/02/24 | 
 Reasoning about uncertainty II <br/>  Lecture: write a paper (~30m) |
 [##X] Prospect theory and political science [[link]](http://ndl.ethernet.edu.et/bitstream/123456789/25739/1/51.pdf.pdf)  
-<font class='paper-index-title'>Required reading but no need to present: </font> 
-[##X] ggdist: Visualizations of distributions and uncertainty in the grammar of graphic [[link]](https://mucollective.northwestern.edu/files/2023-ggdist.pdf)
-[##X] The backstory to “Swaying the public”: A design chronicle of election forecast visualizations [[link]](https://osf.io/preprints/osf/927vy)  <font class='paper-index-title'>(could skip the results) </font> 
+<font class='paper-index-title'>Required reading, look at reviews, but no need to present: </font> 
+[##X] ggdist: Visualizations of distributions and uncertainty in the grammar of graphic [[link]](https://mucollective.northwestern.edu/files/2023-ggdist.pdf) [[reviews]](https://docs.google.com/document/d/1qBfMNaqtFFukubwRaqipHP41ga7wvYF6cC2I0_8ljGc/edit?usp=sharing)
+[##X] The backstory to “Swaying the public”: A design chronicle of election forecast visualizations [[link]](https://osf.io/preprints/osf/927vy)  <font class='paper-index-title'>(could skip the results) </font>  [[reviews]](https://docs.google.com/document/d/1fEwYU0Eygjv0m7xD7DZx87ngtAi1EasLVpoZxCky_5U/edit?usp=sharing)
 |Q.2 due |
 
 | 6 | 10/07/24 | Probalistic forecasts I| 
@@ -295,14 +296,14 @@ Reasoning about uncertainty II <br/>  Lecture: write a paper (~30m) |
 [##X] Projecting confidence: How the probabilistic horse race confuses and demobilizes the public  [[link]](https://www.journals.uchicago.edu/doi/abs/10.1086/708682?casa_token=HhOJoDR4AoUAAAAA%3AJ-nPvumIXvz8pVymEOUfd6uw43tUuY5uucODFKvxTHwuLREfmu6-_l_CIUqnXkuWkm0sSyRfIg&journalCode=jop) 
 [##X] Information, incentives, and goals in election forecasts [[link]](http://www.stat.columbia.edu/~gelman/research/published/jdm200907b.pdf) 
 <font class='paper-index-title'>One of the following two papers:</font> 
-[##X] Swaying the public? Impacts of election forecast visualizations on emotion, trust, and intention in the 2022 U.S. midterms  [[link]](https://osf.io/qpyna/) and [reviews](https://docs.google.com/document/d/11tRB6z3S9sXzY6tAjI1vNU1NAEy2K0mEnkcbj4ZEqCc/edit?usp=sharing)
-[##X] In dice we trust: Uncertainty displays for maintaining trust in election forecasts over time   [[link]](https://osf.io/9x4nr) and [reviews](https://docs.google.com/document/d/1O200vFb88UilGl5NgE9BWuZF25zO0Rz1Vcl3CUNiXcY/edit?usp=sharing)
+[##X] Swaying the public? Impacts of election forecast visualizations on emotion, trust, and intention in the 2022 U.S. midterms  [[link]](https://osf.io/qpyna/) [[reviews]](https://docs.google.com/document/d/11tRB6z3S9sXzY6tAjI1vNU1NAEy2K0mEnkcbj4ZEqCc/edit?usp=sharing)
+[##X] In dice we trust: Uncertainty displays for maintaining trust in election forecasts over time   [[link]](https://osf.io/9x4nr)  [[reviews]](https://docs.google.com/document/d/1O200vFb88UilGl5NgE9BWuZF25zO0Rz1Vcl3CUNiXcY/edit?usp=sharing)
 [##X] Watching the election sausage get made: How data journalists visualize the vote counting process in US elections [[link]](https://dl.acm.org/doi/10.1145/3613904.3642329)  
 | P.1 proposal due  |
 
 | | 10/09/24 | Probalistic forecasts II | 
 <font class='paper-index-title'>One of the two bus papers:</font> 
-[##X] When (ish) is my bus?: User-centered visualizations of uncertainty in everyday, mobile predictive systems [[link]](https://idl.cs.washington.edu/files/2016-WhenIsMyBus-CHI.pdf) and [reviews] 
+[##X] When (ish) is my bus?: User-centered visualizations of uncertainty in everyday, mobile predictive systems [[link]](https://idl.cs.washington.edu/files/2016-WhenIsMyBus-CHI.pdf) 
 [##X] Uncertainty displays using quantile dotplots or CDFs improve transit decision-making  [[link]](https://www.mjskay.com/papers/chi2018-uncertain-bus-decisions.pdf) 
 [##X] Effects of ensemble and summary displays on interpretations of geospatial uncertainty data  [[link]](https://cognitiveresearchjournal.springeropen.com/counter/pdf/10.1186/s41235-017-0076-1.pdf)  
 <font class='paper-index-title'>Optional: </font> 
