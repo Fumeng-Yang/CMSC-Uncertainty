@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from './withRouter.js';
 import {Container, Jumbotron, Row, Col, Card, Button } from 'react-bootstrap';
 import { FiExternalLink } from "react-icons/fi";
+import ta from './img/huy.png'
 
 class People extends Component { 
 
@@ -19,8 +20,21 @@ class People extends Component {
                  <Card.Text>
                  Instructor<br/>
                  Pronouns: she/her <br/>
-                 Hours: Wed after class to ~4:30p or by appointment <br/>
+                 Hours: M after class to 4:30p<br/>
                  Office: IRB 2216 (for now)
+                 </Card.Text>
+               </Card.Body>
+               </Card>
+
+               <Card className='people-card'>
+               <Card.Img variant="top" src={ta} />
+               <Card.Body>
+                 <Card.Title><a href='https://www.linkedin.com/in/huy-tran-nghiem/' target='_blank' className='normal-a'>Huy Nghiem <FiExternalLink /></a></Card.Title>
+                 <Card.Text>
+                 Teaching Assistant<br/>
+                 Pronouns: he/him <br/>
+                 Hours: Th 3-4p <br/>
+                 Zoom meeting ID: huynghiem
                  </Card.Text>
                </Card.Body>
                </Card>

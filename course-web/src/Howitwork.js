@@ -46,10 +46,14 @@ class Howitworks extends Component {
                 <h2 id='howitworks'>How things work</h2>
 
                 <p dangerouslySetInnerHTML={{ __html: howitworks }}></p>
-
+               Useful links: <a href='https://umd.instructure.com/courses/1375246' className='button-detail2' >Canvas</a> 
+               . You can find the presentation signup on Canvas under the corresponding assignment. 
+                {/* <span href='https://umd.instructure.com/courses/1375246' className='button-detail' >Pres. signup </span>  */}
                 {assignments.map(a => {
                     return (<div className='div-howitworks'>
                         <h6>{a.name} {a.summary}</h6> 
+
+      
                         {a.divs.map(c => {
                             return (
                                 <Container>

@@ -32,7 +32,7 @@ By the end of this course, students should be able to
 </ul>
 
 
-This course is ideal for first or second-year graduate students. Senior PhD students interested in these topics are also welcome. Undergraduates need permission to enroll.
+This course is ideal for first or second-year graduate students. Senior PhD students interested in these topics are also welcome.
 </p>
 `
 
@@ -56,10 +56,11 @@ export const assignments = [
                 'perc': .08,
                 'id': 'paper-presentation',
                 'requirement': `In each class, students will present and discuss papers from the provided paper list. 
-                                <a href='https://docs.google.com/spreadsheets/d/18g1-GHFBAHwZIlZvIzBx7lznLUl45462Pa378EBw9fY/edit?usp=sharing'>Sign up here</a> (TBD). `,
+                                `,
                 'long_requirement': `
                 Each presentation (including the discussion) should last 20-30 minutes. <br/>
-                Please sign up for 2-3 papers over the course of the semester, and do so  &#8805;3 days before your scheduled presentation. <br/>
+                Please sign up for 1-2 papers over the course of the semester, and do so 2-3 days before your scheduled presentation. <br/>
+                You can choose to present an optional paper. <br/>
                 Presenters in the same class are encouraged to coordinate and decide how they would like to present and lead the discussion. <br/>
                You may reuse any online materials (e.g., slides, videos, demos) as long as you adhere to their licenses and describe the materials in your own words. <br/>
                 You may use any online resources as guidance, but make sure to at least introduce the problem, present some methods and results, and stimulate a discussion.  <br/>
@@ -84,10 +85,11 @@ export const assignments = [
             {
                 'perc': .08,
                 'id': 'reading-responses',
-                'requirement': 'Submit 1-2 questions for each paper by noon on the day of the class.  ',
+                'requirement': 'Submit 1-2 questions for each required paper by noon on the day of the class.  ',
                 'long_requirement': `
+                You can substitute a required paper with an optional paper, although we encourage you to read the required papers. <br/>
                 The questions will be forwarded to the presenter to help lead the discussion. <br/>
-                At least 2 questions per week should be non-trivial. While we won't strictly count non-trivial questions every week, your questions should show that you are consistently reading and critically thinking about the papers.  <br/>
+                At least some questions per week should be non-trivial. While we won't strictly count non-trivial questions every week, your questions should show that you are consistently reading and critically thinking about the papers.  <br/>
                You may read papers in advance to help write your proposal. In this case, your questions will still be counted, even if those papers are later removed. (This is a git-tracked website.)`
             }]
     },
@@ -101,7 +103,7 @@ export const assignments = [
                 'id': 'preregistration',
                 'requirement': '<a href=\'https://docs.google.com/document/d/1nKzrqqNwtefV-Y9UQkmlNbl8RWWM_zVtLdPjMCLuxC0/edit?usp=sharing\'>Q.1</a> preregistration for an experiment (solo) ',
                 'long_requirement': `Write a one-page preregistration for a given experiment. <br/>
-                 The dataset will be released next week.`
+                 The dataset will be released after you submit your preregistration.`
             },
             {
                 'perc': .05,
@@ -109,7 +111,7 @@ export const assignments = [
                 'requirement': '<a href=\'https://docs.google.com/document/d/1QIWt89rq8cb4UNg4q9XCCW2YAx1NxbSryNUS_rCvAZs/edit?usp=sharing\'>Q.2</a>  your preregistered analysis & report (solo) ',
                 'long_requirement': `
                                     Expect a code implementation or a high-quality sketch. <br/>
-                                    Provide a few paragraphs of justification, along with your code or the sketching process.`
+                                    Provide a short report (1-2 pages), including your research question, justification of methods, and results.`
             }]
     },
 
@@ -153,25 +155,23 @@ export const assignments = [
             {
                 'perc': .1,
                 'id': 'peer-reviews',
-                'requirement': '<a href=\'https://docs.google.com/document/d/1MOivtgkwJyjpv1Z-ElEC1mC1jJKZO3AHngmAxk9ONL0/edit?usp=sharing\'>R.2</a>  write two peer reviews (group) ',
-                'long_requirement': `Students need to submit 1-2 peer reviews (submission method and numbers to be determined). <br/>
+                'requirement': '<a href=\'https://docs.google.com/document/d/1MOivtgkwJyjpv1Z-ElEC1mC1jJKZO3AHngmAxk9ONL0/edit?usp=sharing\'>R.2</a>  write 1(?) peer review (group) ',
+                'long_requirement': `Students need to submit 1(?) peer review (submission method and numbers to be determined). <br/>
                 Fumeng will briefly review the submissions to ensure they are appropriate.
                 `
             }]
     },
     {
         'name': 'Midterm exam: ',
-        'summary': 'in-class? take-home? (TBD)',
+        'summary': 'take-home (Gradescope)',
         'divs': [
             {
                 'perc': .15,
                 'id': 'midterm',
-                'requirement': 'four to six questions based on readings and lectures.  Strictly no GPT, Grammarly Go, LLMs, or similar tools. ',
+                'requirement': 'four questions based on readings and lectures.  Strictly no GPT, Grammarly Go, LLMs, or similar tools. ',
                 'long_requirement': `
-                 Unless we have a TA to supervise the exam, this midterm will be take-home. <br/>
-                 The first 2-3 questions will be based on the readings, followed by 2-3 open-ended questions. <br/>
-                 Expect to write a few paragraphs for each question. The focus is on your idea, but be sure to read your answers for obvious readability issues. <br/>
-                For Ph.D. students, these questions are similar to what you might get from your committee (e.g., Fumeng). <br/>
+                 I will give you about 6 questions, and you select 4 to answer. <br/>
+                 Expect to write 1-3 paragraphs for each question. The focus is on your idea, but be sure to read your answers for obvious readability issues. <br/>
                  Example question: Rank the following six visual channels—length, position, area, angle, luminance, and volume—and justify your ranking.`
             }]
     }
@@ -183,11 +183,11 @@ export const assignments = [
             {
                 'perc': .2,
                 'id': 'final',
-                'requirement': 'the final revised short paper (P.3) and review response (group; no late submissions accepted) ',
+                'requirement': 'the final revised short paper (P.3) and revision report (group; no late submissions accepted) ',
                 'long_requirement': `
                 The teaching staff will look at the revised papers, the reviews, and your responses, and will then decide on a score. <br/>
 
-This exam will be graded based on the quality of the revised version and how well you respond to the reviews. If you receive a particularly picky review, you only need to respond to it reasonably.
+This exam will be graded based on the quality of the revised version and if I can follow your revision report to identify what you have changed. If you receive a particularly picky review, you only need to respond to it reasonably.
                  `
             }]
     },
@@ -206,14 +206,14 @@ This exam will be graded based on the quality of the revised version and how wel
 
 
 
-export const syllabus = `| Week <br/>&#128034;&#128007; | Date | Topics | Reading list (due before the class) | Assignments |
+export const syllabus = `| Week <br/>| Date | Topics | Reading list (due before the class) | Assignments |
 
 |--|---|-----------|-------------------------|--------------|
 
-| 0 | 08/26/24 | Logistics +  Warm-up exercise |  <font class='paper-index-title'>A reminder: start reading the papers </font>   | QPR out |
+| 0 <br/>  | 08/26/24 | Logistics +  Warmup <a target='_blank' href='/CMSC839E/slides/w0-logistics.pdf'>[slides]</a>|  <font class='paper-index-title'>A reminder: start reading the papers </font>   | QPR out |
 
-| | 08/28/24 | Lecture: Background knowledge on statistics, uncertainty, and visualization <a href='/CMSC839E/code/stats_uncertainty.html' target='_blank'>[code html]</a>, <a href='/CMSC839E/code/stats_uncertainty.Rmd' target='_blank'>[Rmd]</a> | 
-<font class='paper-index-title'>Presentations start next week, but make sure to read this week's papers and submit your questions! </font>  
+| | 08/28/24 | Lecture: Background knowledge on statistics, uncertainty, and visualization <a href='/CMSC839E/slides/w0-statistics.pdf' target='_blank'>[slides]</a>, <a href='/CMSC839E/code/stats_uncertainty.html' target='_blank'>[html]</a>, <a href='/CMSC839E/code/stats_uncertainty.Rmd' target='_blank'>[Rmd]</a> | 
+<font class='paper-index-title'>Presentations start next week, but make sure to read this week's papers and submit your questions, if we could fix Canvas... </font>  
 [##X] Statistical rethinking (Chapter 1 The golem of prague) [[link]](https://xcelab.net/rmpubs/sr2/statisticalrethinking2_chapters1and2.pdf)  
 <font class='paper-index-title'> Only if you haven't taken a vis course: </font> 
 [##X] Visualization analysis & design (Chapter 5 Marks and channels)  [[link]](https://paul.zhdk.ch/mod/resource/view.php?id=26808&lang=en) 
@@ -223,44 +223,50 @@ export const syllabus = `| Week <br/>&#128034;&#128007; | Date | Topics | Readin
 [##X] Rethinking the ranks of visual channels  [[link]](https://arxiv.org/abs/2107.11367)  
 |
 
-| 1 | 09/02/24 | Labor day (no class) | | |
+| 1| 09/02/24 | Labor day (no class) | | |
 
-| | 09/04/24 | Quantitative results I - Null Hypothesis Significance Testing (NHST) | 
+|  | 09/04/24 | Quantitative results I - Null Hypothesis Significance Testing (NHST) <br>
+<a href='/CMSC839E/slides/w1-pvalues.pdf' target='_blank'>[slides]</a>, <a href='/CMSC839E/code/0904.html' target='_blank'>[html]</a>, <a href='/CMSC839E/code/0904-vis.zip' target='_blank'>[code and figure zip]</a>
+| 
 [##X] Rethinking statistical analysis methods for CHI  [[link]](https://judyrobertson.typepad.com/files/chi2012_submission_final.pdf)
 [##X] Statistical tests, p values, confidence intervals, and power: A guide to misinterpretations [[link]](https://link.springer.com/article/10.1007/s10654-016-0149-3) 
 <font class='paper-index-title'> Optional: </font> 
 [##X] Confusion over measures of evidence (p's) versus errors (a's) in classical statistical testing [[link]](https://www.roma1.infn.it/~dagos/dott-prob_30/Hubbard-Bayarri-2003.pdf) 
 | [Q.1](https://docs.google.com/document/d/1nKzrqqNwtefV-Y9UQkmlNbl8RWWM_zVtLdPjMCLuxC0/edit?usp=sharing) finalized  |
 
-| 2 | 09/09/24 |  Quantitative results II - Confidence intervals & Bayesian methods | 
+| 2  | 09/09/24 |  Quantitative results II - Confidence intervals & Bayesian methods <a href='/CMSC839E/slides/w2-Sep_9.pdf' target='_blank'>[slides]</a> | 
 [##X] Fair statistical communication in HCI  [[link]](https://inria.hal.science/hal-01377894/file/fairstats-last.pdf) 
 [##X] Can visualization alleviate dichotomous thinking? Effects of visual representations on the cliff effect  [[link]](https://arxiv.org/pdf/2002.07671#:~:text=Our%20results%20suggest%20that%20adding,the%20CI%20with%20p%2Dvalues.) 
-<font class='paper-index-title'>Required reading but no need to present: </font> 
+<font class='paper-index-title'>Optional: </font> 
 [##X] Researcher-centered design of statistics: Why Bayesian statistics better fit the culture and incentives of HCI  [[link]](https://www.mjskay.com/papers/chi_2016_bayes.pdf)  
 | |
 
-| | 09/11/24 | Uncertainty visualization |
+|| 09/11/24 | Uncertainty visualization 
+<a href='/CMSC839E/code/0911-in_class.html' target='_blank'>[html]</a>, 
+<a href='/CMSC839E/code/0911-in_class.zip' target='_blank'>[code and data zip]</a>
+|
 [##X] Fundamentals of data visualization (Chapter 16 Visualizing uncertainty)  [[link]](https://clauswilke.com/dataviz/visualizing-uncertainty.html)
 [##X] Why authors don't visualize uncertainty [[link]](https://mucollective.github.io/assets/papers/2019-value-of-uncertainty-vis.pdf)
 <font class='paper-index-title'>Optional:</font> 
 [##X] The UncertaintyVis browser [[link]](https://amitjenaiitbm.github.io/uncertaintyVizBrowser/)
 | |
 
-|  3 | 09/16/24 | XAI I: Explainable AI | 
+|  3    | 09/16/24 | XAI I: Explainable AI | 
+Bring a chart from your research field, prepare for a 5-minute conversation: what it is about, and why you like it
 [##X] Questioning the AI: Informing design practices for Explainable AI user experiences [[link]](https://arxiv.org/abs/2001.02478) 
 [##X] Visual analytics in deep learning: An interrogative survey for the next frontiers  [[link]](https://arxiv.org/abs/1801.06889) 
 [##X] CNN explainer: Learning convolutional neural networks with interactive visualization [[link]](https://arxiv.org/abs/2004.15004) 
- |  |
+|  |
 
-| | 09/18/24 | XAI II: Explainability |  
+|  | 09/18/24 | XAI II: Explainability |  
 [##X] Explanation, prediction, and causality: Three sides of the same coin? [[link]](https://osf.io/preprints/osf/u6vz5) 
 [##X] The mythos of model interpretability: In machine learning, the concept of interpretability is both important and slippery [[link]](https://dl.acm.org/doi/pdf/10.1145/3236386.3241340) 
 [##X] Rethinking explainability as a dialogue: A practitioner's perspective [[link]](https://arxiv.org/pdf/2202.01875) 
 <font class='paper-index-title'> Optional: </font> <br/>
 [##X] Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead [[link]](https://www.nature.com/articles/s42256-019-0048-x) 
-| Q.1 due <br/>[Q.2](https://docs.google.com/document/d/1QIWt89rq8cb4UNg4q9XCCW2YAx1NxbSryNUS_rCvAZs/edit?usp=sharing) finalized, [dataset] |
+| Q.1 due <br/>[Q.2](https://docs.google.com/document/d/1QIWt89rq8cb4UNg4q9XCCW2YAx1NxbSryNUS_rCvAZs/edit?usp=sharing) finalized, [dataset](https://drive.google.com/file/d/1FFFPBVKFMfW4zTcbMeZhS_7-m0M7nfIi/view?usp=sharing) |
 
-| 4 | 09/23/24 |  
+| 4 &#128034;| 09/23/24 |  
 XAI III: User trust | 
 [##X] Effect of confidence and explanation on accuracy and trust calibration in AI-assisted decision making [[link]](https://arxiv.org/pdf/2001.02114)
 [##X] Are explanations helpful? A comparative study of the effects of explanations in AI-assisted decision-making [[link]](https://mingyin.org/paper/IUI-21/iui21.pdf)
@@ -268,7 +274,7 @@ XAI III: User trust |
 [##X] Introduction to uncertainty in deep learning [[link]](https://www.gatsby.ucl.ac.uk/~balaji/balaji-uncertainty-talk-cifar-dlrl.pdf) <font class='paper-index-title'> (until ~p45) </font> 
 | |
 
-| | 09/25/24 | XAI IV: Wrap-up  <br/> Project check-in (~25m)  |  
+| | 09/25/24 | XAI IV: Wrap-up   |  
 [##X] Uncertainty as a form of transparency: Measuring, communicating, and using uncertainty [[link]](https://arxiv.org/pdf/2011.07586)
 <font class='paper-index-title'>Optional:</font> 
 [##X] Machine explanations and human understanding [[link]](https://arxiv.org/pdf/2202.04092)
@@ -283,77 +289,80 @@ XAI III: User trust |
 [##X] Risk attitudes of children and adults: Choices over small and large probability gains and losses [[link]](https://link.springer.com/content/pdf/10.1023/A:1016316725855.pdf) <font class='paper-index-title'> (look at EUT and CPT, no need to get into experimental design) </font> 
 | |
 
-| | 10/02/24 | 
-Reasoning about uncertainty II <br/>  Lecture: write a paper (~30m) |
-[##X] Prospect theory and political science [[link]](http://ndl.ethernet.edu.et/bitstream/123456789/25739/1/51.pdf.pdf)  
-<font class='paper-index-title'>Required reading, look at reviews, but no need to present: </font> 
-[##X] ggdist: Visualizations of distributions and uncertainty in the grammar of graphic [[link]](https://mucollective.northwestern.edu/files/2023-ggdist.pdf) [[reviews]](https://docs.google.com/document/d/1qBfMNaqtFFukubwRaqipHP41ga7wvYF6cC2I0_8ljGc/edit?usp=sharing)
-[##X] The backstory to “Swaying the public”: A design chronicle of election forecast visualizations [[link]](https://osf.io/preprints/osf/927vy)  <font class='paper-index-title'>(could skip the results) </font>  [[reviews]](https://docs.google.com/document/d/1fEwYU0Eygjv0m7xD7DZx87ngtAi1EasLVpoZxCky_5U/edit?usp=sharing)
+| | 10/02/24 | Project discussion |
+in-class activities, bring your laptop, and a marker
 |Q.2 due |
 
-| 6 | 10/07/24 | Probalistic forecasts I| 
-<font class='paper-index-title'>One of the following two papers:</font> 
-[##X] Projecting confidence: How the probabilistic horse race confuses and demobilizes the public  [[link]](https://www.journals.uchicago.edu/doi/abs/10.1086/708682?casa_token=HhOJoDR4AoUAAAAA%3AJ-nPvumIXvz8pVymEOUfd6uw43tUuY5uucODFKvxTHwuLREfmu6-_l_CIUqnXkuWkm0sSyRfIg&journalCode=jop) 
-[##X] Information, incentives, and goals in election forecasts [[link]](http://www.stat.columbia.edu/~gelman/research/published/jdm200907b.pdf) 
-<font class='paper-index-title'>One of the following two papers:</font> 
-[##X] Swaying the public? Impacts of election forecast visualizations on emotion, trust, and intention in the 2022 U.S. midterms  [[link]](https://osf.io/qpyna/) [[reviews]](https://docs.google.com/document/d/11tRB6z3S9sXzY6tAjI1vNU1NAEy2K0mEnkcbj4ZEqCc/edit?usp=sharing)
-[##X] In dice we trust: Uncertainty displays for maintaining trust in election forecasts over time   [[link]](https://osf.io/9x4nr)  [[reviews]](https://docs.google.com/document/d/1O200vFb88UilGl5NgE9BWuZF25zO0Rz1Vcl3CUNiXcY/edit?usp=sharing)
-[##X] Watching the election sausage get made: How data journalists visualize the vote counting process in US elections [[link]](https://dl.acm.org/doi/10.1145/3613904.3642329)  
-| P.1 proposal due  |
+| 6 | 10/07/24 | Reasoning about uncertainty II|
+[##X] Prospect theory and political science [[link]](http://ndl.ethernet.edu.et/bitstream/123456789/25739/1/51.pdf.pdf)  
+<font class='paper-index-title'>Only require you to get a sense of the writing style and look at reviews: </font> 
+[##X] ggdist: Visualizations of distributions and uncertainty in the grammar of graphic [[link]](https://mucollective.northwestern.edu/files/2023-ggdist.pdf) [[reviews]](https://docs.google.com/document/d/1qBfMNaqtFFukubwRaqipHP41ga7wvYF6cC2I0_8ljGc/edit?usp=sharing)
+[##X] The backstory to “Swaying the public”: A design chronicle of election forecast visualizations [[link]](https://osf.io/preprints/osf/927vy)  <font class='paper-index-title'>(could skip the results) </font>  [[reviews]](https://docs.google.com/document/d/1fEwYU0Eygjv0m7xD7DZx87ngtAi1EasLVpoZxCky_5U/edit?usp=sharing) 
+ &#11088; Fumeng needs at least 15m at the end to talk about paper writing.
+| |
 
-| | 10/09/24 | Probalistic forecasts II | 
+| &#128007;| 10/09/24 | Probalistic forecasts I | 
+[##X] Information, incentives, and goals in election forecasts [[link]](http://www.stat.columbia.edu/~gelman/research/published/jdm200907b.pdf) 
+[##X] Swaying the public? Impacts of election forecast visualizations on emotion, trust, and intention in the 2022 U.S. midterms  [[link]](https://osf.io/qpyna/) [[reviews]](https://docs.google.com/document/d/11tRB6z3S9sXzY6tAjI1vNU1NAEy2K0mEnkcbj4ZEqCc/edit?usp=sharing)
+[##X] Watching the election sausage get made: How data journalists visualize the vote counting process in US elections [[link]](https://dl.acm.org/doi/10.1145/3613904.3642329)  
+<font class='paper-index-title'>Optional:</font> 
+[##X] Projecting confidence: How the probabilistic horse race confuses and demobilizes the public  [[link]](https://www.journals.uchicago.edu/doi/abs/10.1086/708682?casa_token=HhOJoDR4AoUAAAAA%3AJ-nPvumIXvz8pVymEOUfd6uw43tUuY5uucODFKvxTHwuLREfmu6-_l_CIUqnXkuWkm0sSyRfIg&journalCode=jop) 
+[##X] In dice we trust: Uncertainty displays for maintaining trust in election forecasts over time   [[link]](https://osf.io/9x4nr)  [[reviews]](https://docs.google.com/document/d/1O200vFb88UilGl5NgE9BWuZF25zO0Rz1Vcl3CUNiXcY/edit?usp=sharing)
+| [P.2 & P.3](https://docs.google.com/document/d/1PX7GW2fauBQ1w-O4Ar6jTIRzgiRn2YK8tX73GRLGcoE/edit?usp=sharing) finalized|
+
+| 7 | 10/14/24 | Fumeng at  VIS  [[link]](https://ieeevis.org/year/2024/info/week-at-a-glance)  (no class) | midterm will be relased on Mon and due on Fri  |  P.1 proposal due  |
+
+| | 10/16/24 | Fumeng at  VIS  [[link]](https://ieeevis.org/year/2024/info/week-at-a-glance) (no class) | midterm will be  relased on Mon and due on Fri  |  |
+
+| 8 | 10/28/24 | Probalistic forecasts II | 
 <font class='paper-index-title'>One of the two bus papers:</font> 
 [##X] When (ish) is my bus?: User-centered visualizations of uncertainty in everyday, mobile predictive systems [[link]](https://idl.cs.washington.edu/files/2016-WhenIsMyBus-CHI.pdf) 
 [##X] Uncertainty displays using quantile dotplots or CDFs improve transit decision-making  [[link]](https://www.mjskay.com/papers/chi2018-uncertain-bus-decisions.pdf) 
 [##X] Effects of ensemble and summary displays on interpretations of geospatial uncertainty data  [[link]](https://cognitiveresearchjournal.springeropen.com/counter/pdf/10.1186/s41235-017-0076-1.pdf)  
 <font class='paper-index-title'>Optional: </font> 
-[##X] Multiple forecast visualizations (MFVs): Trade-offs in trust and performance in multiple COVID-19 forecast visualizations [[link]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9904455) 
-| [P.2 & P.3](https://docs.google.com/document/d/1PX7GW2fauBQ1w-O4Ar6jTIRzgiRn2YK8tX73GRLGcoE/edit?usp=sharing) finalized|
-
-| 7 | 10/14/24 | IEEE VIS  | Fumeng away 	&#x2708;&#xFE0F;; check out the conference program [[link]](https://ieeevis.org/year/2024/info/week-at-a-glance) | midterm week |
-
-| | 10/16/24 | IEEE VIS | Fumeng away &#x2708;&#xFE0F;; check out the conference program [[link]](https://ieeevis.org/year/2024/info/week-at-a-glance)  | midterm week |
-
-| 8 | 10/28/24 | Uncertainty in species tree I | 
-[##X] Species tree inference (Chapter 1) [[link]](https://press.princeton.edu/books/hardcover/9780691207599/species-tree-inference#preview)
-[##X] The timescale of early land plant evolution [[link]](https://www.pnas.org/doi/full/10.1073/pnas.1719588115)
+[##X] Multiple forecast visualizations (MFVs): Trade-offs in trust and performance in multiple COVID-19 forecast visualizations [[link]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9904455)
 | [R](https://docs.google.com/document/d/1MOivtgkwJyjpv1Z-ElEC1mC1jJKZO3AHngmAxk9ONL0/edit?usp=sharing) finalized &#129310; |
 
-| | 10/30/24 |  Uncertainty in species tree II  <br/>  Lecture: write a review (~30m) | 
-[##X] Treevis.net: A tree visualization reference [[link]](https://cs.au.dk/~hjschulz/pdfs/treevisnet.pdf)  <font class='paper-index-title'>(make sure to show the website during your presentation)</font>
-[##X] Phylogenetic tree visualization [[link]](https://yulab-smu.top/treedata-book/chapter4.html)
+| | 10/30/24 |  Uncertainty in species tree I | 
+[##X] Species tree inference (Chapter 1) [[link]](https://press.princeton.edu/books/hardcover/9780691207599/species-tree-inference#preview)
+[##X] The timescale of early land plant evolution [[link]](https://www.pnas.org/doi/full/10.1073/pnas.1719588115)
 | |
 
-| 9 | 11/04/24 | LLM uncertainty I - Source| 
+| 9 | 11/04/24 | Uncertainty in species tree II  | 
+[##X] Treevis.net: A tree visualization reference [[link]](https://cs.au.dk/~hjschulz/pdfs/treevisnet.pdf)  <font class='paper-index-title'>(make sure to show the website during your presentation)</font>
+[##X] Phylogenetic tree visualization [[link]](https://yulab-smu.top/treedata-book/chapter4.html)
+ &#11088; Fumeng needs 25m at the end to talk about how to write a review
+| P.2 abstract due  |
+
+| | 11/06/24 | LLM uncertainty I - Source| 
 [##X] Uncertainty in natural language generation: From theory to applications [[link]](https://arxiv.org/pdf/2307.15703)
 [##X] Semantic uncertainty: Linguistic invariances for uncertainty estimation in natural language generation [[link]](https://arxiv.org/abs/2302.09664)
 <!-- Navigating the Grey Area: How Expressions of Uncertainty and Overconfidence Affect Language Models-->
 <font class='paper-index-title'>Optional: </font> 
 [##X] A taxonomy for understanding and identifying uncertainty in AI-generated responses [[link]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4836380)
-[##X] How is ChatGPT's behavior changing over time? [[link]](https://arxiv.org/abs/2307.09009)
-| P.2 abstract due  |
-
-| | 11/06/24 | LLM uncertainty II - Quantification | 
-[##X] Generating with confidence: Uncertainty quantification for black-box large language lodels [[link]](https://arxiv.org/pdf/2305.19187)
-[##X] Shifting attention to relevance: Towards the predictive uncertainty quantification of free-form large language models [[link]](https://arxiv.org/pdf/2307.01379)
-[##X] Look before you leap: An exploratory study of uncertainty measurement for large language models [[link]](https://arxiv.org/pdf/2307.10236) 
+[##X] How is ChatGPT's behavior changing over time? [[link]](https://arxiv.org/abs/2307.09009) 
 | R.1 bidding out |
 
-| 10 | 11/11/24 | LLM uncertainty III - User perspective|  
-[##X] "I'm not sure, but...": Examining the impact of large language models' uncertainty expression on user reliance and trust [[link]](https://www.jennwv.com/papers/uncertaintyllms.pdf)  
-[##X] Teaching models to express their uncertainty in words [[link]](https://arxiv.org/pdf/2205.14334)
+| 10 | 11/11/24 | LLM uncertainty II - Quantification | 
+[##X] Generating with confidence: Uncertainty quantification for black-box large language lodels [[link]](https://arxiv.org/pdf/2305.19187)
+[##X] Shifting attention to relevance: Towards the predictive uncertainty quantification of free-form large language models [[link]](https://arxiv.org/pdf/2307.01379)
+<font class='paper-index-title'>Optional: </font> 
+[##X] Look before you leap: An exploratory study of uncertainty measurement for large language models [[link]](https://arxiv.org/pdf/2307.10236)
 | |
 
-| | 11/13/24 |   AI literacy I <br/> Lecture: respond to reviews (~30m) | 
-[##X] Adults' statistical literacy: Meanings, components, responsibilities [[link]](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=f490d421fc7b8af7eba4c3ca997a8388547c55d6)
+| | 11/13/24 |   LLM uncertainty III - User perspective|  
+[##X] "I'm not sure, but...": Examining the impact of large language models' uncertainty expression on user reliance and trust [[link]](https://www.jennwv.com/papers/uncertaintyllms.pdf)  
+[##X] Teaching models to express their uncertainty in words [[link]](https://arxiv.org/pdf/2205.14334)
 |R.1 bidding due |
 
-| 11 | 11/18/24 | AI literacy  II | 
+| 11 | 11/18/24 | AI literacy I | 
+[##X] Adults' statistical literacy: Meanings, components, responsibilities [[link]](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=f490d421fc7b8af7eba4c3ca997a8388547c55d6)
+ &#11088; Fumeng needs 25m at the end to talk about how to respond to reviews
+| P.2 paper due  |
+
+| | 11/20/24 |  AI literacy  II | 
 [##X] What is AI literacy? Competencies and design considerations [[link]](https://aiunplugged.lmc.gatech.edu/wp-content/uploads/sites/36/2020/08/CHI-2020-AI-Literacy-Paper-Camera-Ready.pdf) 
 [##X] The effects of perceived AI use on content perceptions [[link]](https://dl.acm.org/doi/pdf/10.1145/3613904.3642076) | 
-P.2 paper due  |
-
-| | 11/20/24 | Project presentations | <a href='https://docs.google.com/spreadsheets/d/18g1-GHFBAHwZIlZvIzBx7lznLUl45462Pa378EBw9fY/edit?usp=sharing'>Sign up here</a>
 | R.2 peer-review out  |
 
 | 12 | 11/25/24 | Thanksgiving (no class)  | | |
@@ -384,7 +393,7 @@ We encourage collaboration and discussion among students. However, solo assignme
 `
 
 export const late_policy = `
-You have <b>4 slack days</b> to use for any assignments or responses that have a late policy. These days are intended for minor illnesses, special occasions (e.g., interviews), or unexpected scenarios. Late submissions not covered by a slack day will incur a 10% grade deduction per day. Email us before the deadline and specify how many days you'd like to use.
+You have <b>4 slack days</b> to use for any assignments or responses that have a late policy. These days are intended for minor illnesses, special occasions (e.g., interviews), or unexpected scenarios. Late submissions not covered by a slack day will incur a 10% grade deduction per day. Inform us before the deadline and specify how many days you'd like to use.
 <p>
 
 </p>
@@ -406,7 +415,7 @@ export const ai_policy = ` <p>The scope of AI tools includes, but is not limited
 export const support_text = `
 We are committed to the full inclusion of all students. You should expect and demand respect from classmates and staff, and reciprocally, treat others with respect. If any incident challenges this commitment, please inform us immediately.
 
-If you have a disability or condition that requires accommodations, please notify us early in the term. You can speak with us after class or email us for an appointment. For more information, contact Accessibility & Disability Services at (301) 314-7682 or adsfrontdesk@umd.edu.
+If you have a disability or condition that requires accommodations, please notify us early in the term. You can speak with us after class. For more information, contact Accessibility & Disability Services at (301) 314-7682 or adsfrontdesk@umd.edu.
 `
 
 

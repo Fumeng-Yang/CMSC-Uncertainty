@@ -113,6 +113,20 @@ ol {
    border-radius: 3px; */
 }
 
+.button-detail2 {
+  background-color: white;
+  color: var(--theme-color);
+  padding: 5px 8px 5px 8px;
+  margin-left: 5pt;
+  /* border-radius: 4px; */
+  border: 1px solid var(--theme-color);
+  text-decoration: none !important;
+  -moz-transition: -moz-transform 0.3s ease-in-out;
+  -o-transition: -o-transform 0.3s ease-in-out;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
 .button-detail {
   background-color: white;
   color: var(--theme-color);
@@ -140,7 +154,7 @@ ol {
 
 .align-bottom span {}
 
-.button-detail:hover {
+.button-detail:hover, .button-detail2:hover {
   cursor: pointer;
   color: var(--theme-color-dark);
   border:1px solid var(--theme-color-dark);

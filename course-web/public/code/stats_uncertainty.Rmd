@@ -22,6 +22,37 @@ library(rstatix) # anova test
 SD = 1 # assume a standard deviation of 1
 ```
 
+# One-tailed vs two-tailed
+
+```{r}
+samples = tibble(x = qnorm(ppoints(1000), mean = 0, sd = 1))
+```
+
+
+```{r}
+ggplot(samples, aes(x = x)) +
+  stat_slab(aes(fill = after_stat(x > qnorm(.95)))) +
+  scale_y_continuous(expand = c(0,0), breaks = NULL) + 
+  scale_fill_manual(values=c('#dddddd', '#00A2FF')) + 
+  theme_classic() + theme(legend.position = 'none') + ylab('')
+```
+
+
+```{r}
+ggplot(samples, aes(x = x)) +
+  stat_slab(aes(fill = after_stat(x < qnorm(.05)))) +
+  scale_y_continuous(expand = c(0,0), breaks = NULL) + 
+  scale_fill_manual(values=c('#dddddd', '#00A2FF')) + 
+  theme_classic() + theme(legend.position = 'none') + ylab('')
+```
+
+```{r}
+ggplot(samples, aes(x = x)) +
+  stat_slab(aes(fill = after_stat(x > qnorm(.025) & x < qnorm(.975)))) +
+  scale_y_continuous(expand = c(0,0), breaks = NULL) + 
+  scale_fill_manual(values=c('#00A2FF', '#dddddd')) + 
+  theme_classic() + theme(legend.position = 'none') + ylab('')
+```
 
 # Fisher 
 
